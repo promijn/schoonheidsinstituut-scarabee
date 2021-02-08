@@ -157,10 +157,6 @@ section[id^="content-section"] {
     background-color: #ffffff;
 }
 
-#bootstack-pricing .section-title .title {
-    color:
-}
-
 #bootstack-pricing .section-title .subtitle {
     color: #0a275f;
 }
@@ -247,7 +243,7 @@ section[id^="content-section"] {
 }
 
 #simple-carousel .carousel {
-    padding: 20px 40px 0px 40px;
+    padding: 20px 40px 0 40px;
 }
 
 #rindu-fill .section-title .title {
