@@ -1,0 +1,298 @@
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar.navbar-default {
+    background: #2da39f;
+}
+
+#modest-banner .callbacks_nav {
+    background: transparent url("http://proposure.nl/wp-content/themes/bootstrap3-proposure/sections/modest-banner/nav.png") no-repeat left top;
+}
+
+#modest-banner .callbacks_here a:after {
+    border: 2px solid #2da39f;
+}
+
+#modest-banner h1 {
+    color: #ffffff !important;
+}
+
+#modest-banner p {
+    color: #ffffff !important;
+}
+
+#modest-banner .btn-outline {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+#modest-banner .btn-outline:hover, #modest-banner .btn-outline:focus {
+    background-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+#modest-banner .img-overlay-solid {
+    background-color: rgba(60, 62, 71, 0.3);
+}
+
+#rindu-fill-1 .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-fill-1 .section-title .subtitle {
+    color: #333333;
+}
+
+#rindu-fill-1 .btn-outline {
+    border: 1px solid #333333;
+    color: #333333
+}
+
+#rindu-fill-1 .btn-outline:hover, #rindu-fill-1 .btn-outline:focus {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #fff;
+}
+
+.bg-parallax1 {
+    background: url("http://proposure.nl/wp-content/uploads/logoBG_3.jpg");
+}
+
+#title-section .section-title .title {
+    color: #0a275f;
+}
+
+#title-section .section-title .subtitle {
+    color: #0a275f;
+}
+
+section[id^="content-section"] {
+    background-color: #ffffff
+}
+
+section[id^="content-section"] {
+    background-color: #ffffff
+}
+
+#rindu-fill-2 .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-fill-2 .section-title .subtitle {
+    color: #333333;
+}
+
+#rindu-fill-2 .btn-outline {
+    border: 1px solid #333333;
+    color: #333333
+}
+
+#rindu-fill-2 .btn-outline:hover, #rindu-fill-2 .btn-outline:focus {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #fff;
+}
+
+#rindu-fill-2 .bg-fill {
+    background: rgba(37, 41, 44, 0.6);
+}
+
+.bg-parallax2 {
+    background: url("http://proposure.nl/wp-content/uploads/actieBG.jpg");
+}
+
+#rindu-services .left-icon .icon {
+    background-color: #2da39f;
+}
+
+#rindu-services .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-services .section-title .subtitle {
+    color: #0a275f;
+}
+
+#rindu-services .section-wrapper {
+    background: #ffffff;
+}
+
+#title-section-1 .section-title .title {
+    color: #0a275f;
+}
+
+#title-section-1 .section-title .subtitle {
+    color: #0a275f;
+}
+
+section[id^="content-section"] {
+    background-color: #ffffff
+}
+
+#rindu-fill-3 .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-fill-3 .section-title .subtitle {
+    color: #333333;
+}
+
+#rindu-fill-3 .btn-outline {
+    border: 1px solid #333333;
+    color: #333333
+}
+
+#rindu-fill-3 .btn-outline:hover, #rindu-fill-3 .btn-outline:focus {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #fff;
+}
+
+.bg-parallax3 {
+    background: url("http://proposure.nl/wp-content/uploads/actie_OmniluxRevive_aanbieding2.jpg");
+}
+
+#bootstak-pricing {
+    background-color: #ffffff;
+}
+
+#bootstack-pricing .section-title .title {
+    color:
+}
+
+#bootstack-pricing .section-title .subtitle {
+    color: #0a275f;
+}
+
+#bootstack-pricing .section-wrapper {
+    background: #ffffff;
+}
+
+#bootstack-pricing .panel-custom {
+    border-color: #2da39f;
+}
+
+#bootstack-pricing .panel-custom > .panel-heading {
+    background-color: #2da39f;
+    color: #fff;
+}
+
+#rindu-fill-4 .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-fill-4 .section-title .subtitle {
+    color: #333333;
+}
+
+#rindu-fill-4 .btn-outline {
+    border: 1px solid #333333;
+    color: #333333
+}
+
+#rindu-fill-4 .btn-outline:hover, #rindu-fill-4 .btn-outline:focus {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #fff;
+}
+
+.bg-parallax4 {
+    background: url("http://proposure.nl/wp-content/uploads/header_man_2.jpg");
+}
+
+#rindu-team {
+    background-color: #ffffff;
+}
+
+#rindu-team .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-team .section-title .subtitle {
+    color: #0a275f;
+}
+
+.teams .social a {
+    color: #2da39f;
+    border: 2px solid #2da39f;
+}
+
+.teams .social a:hover {
+    background: #2da39f;
+}
+
+#rindu-team .section-wrapper {
+    background: #ffffff;
+}
+
+#simple-carousel {
+    background-color: #e8fdf6;
+}
+
+#simple-carousel .carousel-indicators .active {
+    background: #2da39f;
+}
+
+#simple-carousel .section-title .title {
+    color: #0a275f;
+}
+
+#simple-carousel .section-title .subtitle {
+    color: #0a275f;
+}
+
+#simple-carousel .carousel-control {
+    background: none repeat scroll 0 0 #2da39f;
+}
+
+#simple-carousel .carousel {
+    padding: 20px 40px 0px 40px;
+}
+
+#rindu-fill .section-title .title {
+    color: #0a275f;
+}
+
+#rindu-fill .section-title .subtitle {
+    color: #333333;
+}
+
+#rindu-fill .btn-outline {
+    border: 1px solid #333333;
+    color: #333333
+}
+
+#rindu-fill .btn-outline:hover, #rindu-fill .btn-outline:focus {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #fff;
+}
+
+.bg-parallax {
+    background: url("http://proposure.nl/wp-content/uploads/instituut-Scarabee-2016.jpg");
+}
+
+#contact-form .section-wrapper {
+    background: #ffffff;
+}
+
+#contact-form .section-title .title {
+    color: #0a275f;
+}
+
+#contact-form .section-title .subtitle {
+    color: #0a275f;
+}
+
+#contact-form .btn-default {
+    background-color: #80c2be;
+}
+
+footer.footer {
+    background: #221b41;
+}
+
+#rindu-footer p, #rindu-footer a, #rindu-footer li, #rindu-footer span {
+    color: #ffffff;
+}

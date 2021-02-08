@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36785c05-a355-4521-ad64-893072063f36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Schoonheidsinstituut Scarabee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/options-317.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/proposure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style-317.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/LaserBehandeling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Mesotherapie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/OmniluxRevive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header2016_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header2016_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/jessica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/laser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/microDermabrasie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pupaMilano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/youngblood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/zz_carla1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/contact-formspree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/imagesloaded.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-migrate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.backtotop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.smooth-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/modernizr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/proposure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/script-317.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/validate-messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/wp-embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/wp-emoji-release.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oCH9hxOtf2FNjEJkL0sG8UYQcm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36785c05-a355-4521-ad64-893072063f36" name="Default Changelist" comment="" />
+      <created>1612783502931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612783502931</updated>
+      <workItem from="1612783504765" duration="1895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

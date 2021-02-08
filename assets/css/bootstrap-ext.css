@@ -1,0 +1,175 @@
+/* BOOTSTRAP EXTENSIONS */
+/* Callout - Side notes for calling out things */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}
+.bs-callout-danger h4 {
+  color: #B94A48;
+}
+.bs-callout-warning h4 {
+  color: #C09853;
+}
+.bs-callout-info h4 {
+  color: #3A87AD;
+}
+/* 5 columns layout
+@props: http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+/* vertical alignment styles */
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+/* fix firefox responsive images */
+.img-responsive {
+  width: 100%;
+}
+.hght-inhrt {
+  min-height: inherit;
+}
+/* center a div */
+.div-center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Responsive columns of same height styles
+@props: http://www.minimit.com/demos/bootstrap-3-responsive-columns-of-same-height */
+.container-xs-height {
+  display: table;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row-xs-height {
+  display: table-row;
+}
+.col-xs-height {
+  display: table-cell;
+  float: none;
+}
+@media (min-width: 768px) {
+  .container-sm-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  .container-md-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-md-height {
+    display: table-row;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+  }
+}
+@media (min-width: 1200px) {
+  .container-lg-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-lg-height {
+    display: table-row;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+  }
+}
+@media (min-width: 768px) {
+  /* top row */
+  .col {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+  /* bottom row */
+  .col-base {
+    margin-top: -15px;
+    /* cut off top portion of bottom wells */
+  }
+}
+@media (max-width: 767px) {
+  .row-fluid.base {
+    display: none;
+  }
+}
+.col-wrap {
+  overflow: hidden;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
