@@ -55,10 +55,6 @@
     border: 1px solid #fff;
 }
 
-.bg-parallax1 {
-    background: url("http://proposure.nl/wp-content/uploads/logoBG_3.jpg");
-}
-
 #title-section .section-title .title {
     color: #0a275f;
 }
@@ -96,10 +92,6 @@ section[id^="content-section"] {
 
 #rindu-fill-2 .bg-fill {
     background: rgba(37, 41, 44, 0.6);
-}
-
-.bg-parallax2 {
-    background: url("http://proposure.nl/wp-content/uploads/actieBG.jpg");
 }
 
 #rindu-services .left-icon .icon {
@@ -149,10 +141,6 @@ section[id^="content-section"] {
     border: 1px solid #fff;
 }
 
-.bg-parallax3 {
-    background: url("http://proposure.nl/wp-content/uploads/actie_OmniluxRevive_aanbieding2.jpg");
-}
-
 #bootstak-pricing {
     background-color: #ffffff;
 }
@@ -191,10 +179,6 @@ section[id^="content-section"] {
     background-color: #fff;
     color: #333333;
     border: 1px solid #fff;
-}
-
-.bg-parallax4 {
-    background: url("http://proposure.nl/wp-content/uploads/header_man_2.jpg");
 }
 
 #rindu-team {
@@ -263,10 +247,6 @@ section[id^="content-section"] {
     background-color: #fff;
     color: #333333;
     border: 1px solid #fff;
-}
-
-.bg-parallax {
-    background: url("http://proposure.nl/wp-content/uploads/instituut-Scarabee-2016.jpg");
 }
 
 #contact-form .section-wrapper {
