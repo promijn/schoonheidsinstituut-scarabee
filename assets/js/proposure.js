@@ -10,43 +10,43 @@
 
 // Detecting Mobile Devices
 var isMobile = {
-    Android: function() {
+    Android: function () {
         return navigator.userAgent.match(/Android/i);
     },
-    BlackBerry: function() {
+    BlackBerry: function () {
         return navigator.userAgent.match(/BlackBerry/i);
     },
-    iOS: function() {
+    iOS: function () {
         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
     },
-    Opera: function() {
+    Opera: function () {
         return navigator.userAgent.match(/Opera Mini/i);
     },
-    Windows: function() {
+    Windows: function () {
         return navigator.userAgent.match(/IEMobile/i);
     },
-    any: function() {
+    any: function () {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
 
 
 // Equalize section items heights
-(function($) {
-    $.fn.equalizeHeights = function() {
+(function ($) {
+    $.fn.equalizeHeights = function () {
 
         var items = $(this), //grab all slides
             heights = [], //create empty array to store height values
             tallest; //create variable to make note of the tallest slide
 
-        var normalizeHeights = function() {
+        var normalizeHeights = function () {
 
-            items.each(function() { //add heights to array
+            items.each(function () { //add heights to array
                 heights.push($(this).height());
             });
             tallest = Math.max.apply(null, heights); //cache largest value
-            items.each(function() {
-                $(this).css('min-height',tallest + 'px');
+            items.each(function () {
+                $(this).css('min-height', tallest + 'px');
             });
         };
 
@@ -57,8 +57,8 @@ var isMobile = {
             tallest = 0;
             heights.length = 0;
 
-            items.each(function() {
-                $(this).css('min-height','0'); //reset min-height
+            items.each(function () {
+                $(this).css('min-height', '0'); //reset min-height
             });
             normalizeHeights(); //run it again
 
@@ -69,25 +69,23 @@ var isMobile = {
 
 
 function urldecode(str) {
-   return decodeURIComponent((str+'').replace(/\+/g, '%20'));
+    return decodeURIComponent((str + '').replace(/\+/g, '%20'));
 }
 
 
-
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
 
     //ANIMATED OBJECT
     // We don' activate this on mobile devices, cause it doesn't work very well on this
-    if ( isMobile.any()) {
+    if (isMobile.any()) {
         $(".animatez").waypoint(function (direction) {
             var effect = $(this).attr('data-effect');
             $(this).removeClass('animatez');
         }, {
             offset: '100%'
         });
-    }
-    else {
+    } else {
         $(".animatez").waypoint(function (direction) {
             var effect = $(this).attr('data-effect');
             $(this).removeClass('animatez');
@@ -96,7 +94,6 @@ jQuery(document).ready(function($) {
             offset: '90%'
         });
     }
-
 
 
     //SMOOTH SCROLL
@@ -108,10 +105,14 @@ jQuery(document).ready(function($) {
 
     // PROPOSURE MODAL SCRIPTS
 
-    $('.proposure-modal').click(function() {
-        var body = urldecode( $(this).data('body') );
+    $('.proposure-modal').click(function () {
+        var body = urldecode($(this).data('body'));
         console.log(body)
         $('#app-modal-body').html(body);
+    });
+
+    $(window).on('load', function () {
+        $("#rindu-team .teams").equalizeHeights();
     });
 
 

@@ -1,0 +1,796 @@
+.navbar.navbar-default {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: 0px 5px 39px -17px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 5px 39px -17px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 39px -17px rgba(0, 0, 0, 0.4);
+}
+
+.navbar .navbar-brand {
+  padding: 18px 25px;
+  padding-right: 30px;
+  font-weight: 300;
+  height: auto;
+  outline: 0;
+}
+
+.navbar .navbar-brand img {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: inherit;
+}
+
+.navbar-collapse {
+  border-top: 0;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .active > a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 14px;
+    padding: 18px 8px;
+  }
+}
+
+#modest-banner {
+}
+
+#modest-banner .rslides_tabs {
+  padding: 0;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px #000000;
+  -moz-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px #000000;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px #000000;
+  font-size: 18px;
+  list-style: none;
+  margin: 0 auto 50px;
+  max-width: 540px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#modest-banner .rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+}
+
+#modest-banner .rslides_tabs li:first-child {
+  margin-left: 0;
+}
+
+#modest-banner .rslides_tabs a {
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: transparent;
+  display: inline;
+}
+
+#modest-banner .rslides_tabs .rslides_here a {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-weight: bold;
+}
+
+#modest-banner .events {
+  list-style: none;
+}
+
+#modest-banner .callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#modest-banner .callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#modest-banner .callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#modest-banner .callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+  width: 100%;
+}
+
+#modest-banner .callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  font-size: 20px;
+  text-shadow: none;
+  color: #fff;
+  left: 15%;
+  right: 0%;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  top: 28%;
+}
+
+#modest-banner .callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  top: 56%;
+  left: 8%;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 41px;
+  margin-top: -65px;
+}
+
+#modest-banner .callbacks_nav:active {
+  opacity: 1.0;
+}
+
+#modest-banner .callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 8%;
+}
+
+#modest-banner .rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#modest-banner .rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#modest-banner .rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+#modest-banner .rslides img {
+  height: auto;
+  border: 0;
+}
+
+#modest-banner .callbacks_tabs {
+  list-style: none;
+  position: absolute;
+  top: 84%;
+  z-index: 999;
+  left: 47%;
+  padding: 0;
+  margin: 0;
+}
+
+#modest-banner .callbacks_tabs li {
+  display: inline-block;
+}
+
+#modest-banner .callbacks_tabs a {
+  visibility: hidden;
+}
+
+#modest-banner .callbacks_tabs a:after {
+  content: "\f111";
+  font-size: 0;
+  font-family: FontAwesome;
+  visibility: visible;
+  display: block;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  border: 2px solid #FFF;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  -ms-border-radius: 30px;
+}
+
+#modest-banner .slide-text-info h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.4em 0em;
+  margin: 0.4em 0 0.1em;
+  display: inline-block;
+}
+
+#modest-banner .slide-text-info p {
+  width: 66%;
+  font-size: 20px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  #modest-banner .slide-text-info h1 {
+    font-size: 20px;
+  }
+  #modest-banner .slide-text-info p {
+    width: 80%;
+    font-size: 14px;
+  }
+  #modest-banner .callbacks_nav {
+    top: 47%;
+  }
+  #modest-banner .callbacks .caption {
+    top: 5%;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  #modest-banner .callbacks .caption {
+    top: 15%;
+    padding: 4px;
+  }
+}
+
+#modest-banner .img-overlay-solid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#modest-banner a.btn-outline, #modest-banner .btn-outline, #modest-banner a.btn-outline:link {
+  border: 2px solid;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+section[id^="title-section"] {
+  position: relative;
+  z-index: 2;
+}
+
+section[id^="title-section"] .section-wrapper {
+  padding-top: 50px;
+  text-align: center;
+}
+
+section[id^="title-section"] .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+section[id^="title-section"] .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+section[id^="title-section"] .section-title .subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+section[id^="title-section"] .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 40px auto;
+  display: inline-block;
+}
+
+#rindu-services {
+  position: relative;
+  z-index: 2;
+}
+
+#rindu-services .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#rindu-services .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#rindu-services .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#rindu-services .section-title .subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+#rindu-services .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 40px auto;
+  display: inline-block;
+}
+
+#rindu-services .left-icon {
+  text-align: left;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 10px;
+}
+
+#rindu-services .left-icon h4 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#rindu-services .left-icon .icon {
+  position: absolute;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  line-height: 43px;
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+}
+
+section[id^="content-section"] {
+  position: relative;
+}
+
+.content-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.content-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.content-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.content-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  z-index: 1051;
+}
+
+.content-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 1052;
+}
+
+#bootstack-pricing {
+  position: relative;
+  z-index: 2;
+}
+
+#bootstack-pricing .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#bootstack-pricing .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#bootstack-pricing .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#bootstack-pricing .section-title .subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+#bootstack-pricing .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 100px auto;
+  display: inline-block;
+}
+
+#bootstack-pricing .panel {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#bootstack-pricing .panel-custom > .panel-heading {
+  color: #fff;
+}
+
+#bootstack-pricing .panel-heading > .panel-title {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#bootstack-pricing .panel-body {
+  padding: 0px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#bootstack-pricing .the-price {
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 0 #dcdcdc, inset 0 1px 0 #dcdcdc;
+  padding: 20px;
+  margin: 0;
+}
+
+#bootstack-pricing .the-price h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+#bootstack-pricing .subscript {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#bootstack-pricing td {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#rindu-team .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#rindu-team .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#rindu-team .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#rindu-team .section-title .subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+#rindu-team .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 100px auto;
+  display: inline-block;
+}
+
+#rindu-team .teams {
+  background: #FFF;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+#rindu-team .teams .pict {
+  position: relative;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+#rindu-team .teams .pict img {
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+  width: 100%;
+}
+
+#rindu-team .teams h3 {
+  color: #202020;
+  font-weight: 400;
+}
+
+#rindu-team .teams .desc {
+  padding: 25px;
+}
+
+#rindu-team .teams span {
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  position: relative;
+}
+
+#rindu-team .teams .social a {
+  width: 31px;
+  height: 31px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 20px;
+  border-radius: 50%;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+#rindu-team .teams .social a:hover {
+  color: #FFF;
+}
+
+#simple-carousel {
+  position: relative;
+  z-index: 2;
+}
+
+#simple-carousel .section-wrapper {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#simple-carousel .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#simple-carousel .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#simple-carousel .section-title .subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+#simple-carousel .carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+
+#simple-carousel .carousel-control {
+  height: 40px;
+  width: 40px;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#simple-carousel .carousel-control i {
+  padding-top: 6px;
+  paddding-left: 2px;
+}
+
+#simple-carousel .carousel-control.right {
+  right: -12px;
+}
+
+#simple-carousel .carousel-control.left {
+  left: -12px;
+}
+
+#simple-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -20px;
+  margin-right: -19px;
+}
+
+#simple-carousel .carousel-indicators li {
+  background: #cecece;
+}
+
+section[id^="rindu-fill"] {
+  position: relative;
+  z-index: 2;
+}
+
+section[id^="rindu-fill"] .fill-wrapper {
+  padding: 100px 0;
+  min-height: 450px;
+}
+
+section[id^="rindu-fill"] .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+section[id^="rindu-fill"] .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+section[id^="rindu-fill"] .section-title .title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+section[id^="rindu-fill"] .section-title .subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+section[id^="rindu-fill"] .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 100px auto;
+  display: inline-block;
+}
+
+#contact-form {
+  position: relative;
+  z-index: 2;
+}
+
+#contact-form .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#contact-form .section-wrapper.text-left, #contact-form .text-left {
+  text-align: left;
+}
+
+#contact-form .section-title {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#contact-form .section-title .title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#contact-form .section-title .subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+#contact-form .title-break {
+  border-top: 3px solid #CCC;
+  width: 80px;
+  margin: 40px auto 100px auto;
+  display: inline-block;
+}
+
+#contact-form li > i {
+  padding-right: 12px;
+}
+
+#contact-form #form-error, #contact-form #form-success {
+  display: none;
+}
+
+#rindu-footer .section-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#rindu-footer .footer-nav {
+  margin: 0;
+  padding: 0;
+}
+
+#rindu-footer .footer-nav li {
+  display: inline;
+  font-size: 14px;
+}
+
+#rindu-footer .footer-nav li a {
+  display: inline-block;
+  margin: 3px 10px;
+}
+
+#rindu-footer .footer-logo img {
+  margin-bottom: 10px;
+  text-align: center;
+  max-width: 320px;
+}
+
+#rindu-footer .footer-logo span {
+  font-size: 13px;
+  display: block;
+}
+
+#rindu-footer .copyright {
+  font-size: 13px;
+  margin: 0 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#rindu-footer .addthis_default_style, #rindu-footer .at300b, #rindu-footer .at300m {
+  float: none !important;
+}
