@@ -47,7 +47,20 @@
   }
 }
 
-#modest-banner {
+#modest-banner, #rindu-fill-3 {
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+
+  p, li {
+    color: #0a275f;
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 300;
+    font-family: "Helvetica Neue", sans-serif;
+  }
 }
 
 #modest-banner .rslides_tabs {
@@ -384,6 +397,31 @@ section[id^="content-section"] {
   position: relative;
 }
 
+#treatments {
+  position: relative;
+
+  table {
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+    td:first-child {
+      max-width: 60%
+    }
+    td:last-child{
+      min-width: 20%;
+      text-align: right;
+    }
+  }
+
+  sup {
+    font-weight: bold;
+    font-size: 16px;
+    color: grey;
+    top: -3px;
+  }
+}
+
 .content-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -471,8 +509,10 @@ section[id^="content-section"] {
   background-color: #f5f5f5;
 }
 
-#bootstack-pricing .panel-custom > .panel-heading {
-  color: #fff;
+#bootstack-pricing .panel-custom {
+ > .panel-heading {
+   color: #fff;
+ }
 }
 
 #bootstack-pricing .panel-heading > .panel-title {
@@ -668,7 +708,7 @@ section[id^="rindu-fill"] {
 
 section[id^="rindu-fill"] .fill-wrapper {
   padding: 100px 0;
-  min-height: 450px;
+  min-height: 350px;
 }
 
 section[id^="rindu-fill"] .section-wrapper {
@@ -707,6 +747,25 @@ section[id^="rindu-fill"] .title-break {
 #contact-form {
   position: relative;
   z-index: 2;
+
+  a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+
+  address {
+    margin-bottom: 20px;
+  }
+
+  li {
+    padding-bottom: 15px;
+
+    > a {
+      font-weight: normal;
+    }
+  }
 }
 
 #contact-form .section-wrapper {
@@ -754,7 +813,7 @@ section[id^="rindu-fill"] .title-break {
 }
 
 #rindu-footer .section-wrapper {
-  padding-top: 100px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -794,3 +853,28 @@ section[id^="rindu-fill"] .title-break {
 #rindu-footer .addthis_default_style, #rindu-footer .at300b, #rindu-footer .at300m {
   float: none !important;
 }
+
+.thumbnail {
+  border-color: #2da39f;
+  padding: 0;
+  border-radius: 4px;
+
+  .caption {
+    padding-bottom: 20px;
+
+    h2 {
+      background-color: #2da39f;
+      color: #fff;
+      padding: 10px 0;
+      margin: -9px -9px 0 -9px;
+    }
+  }
+}
+
+h4 > a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+

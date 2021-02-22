@@ -1,9 +1,4 @@
 @charset "UTF-8";
-
-a:hover {
-  color: #0a275f;
-}
-
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar .navbar-brand {
   color: #ffffff;
 }
@@ -313,10 +308,6 @@ h1, h2, h3, h4, h5, h6 {
 #bootstack-pricing .panel-title {
   font-weight: 400 !important;
   font-size: 12px;
-}
-
-#contact-form div.col-md-6:first-child {
-  display: none;
 }
 
 #content-section-1 .mg-sm, #content-section-2 .mg-sm {
@@ -2026,6 +2017,19 @@ pre.wp-block-verse {
     padding: 18px 8px;
   }
 }
+#modest-banner a, #rindu-fill-3 a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+#modest-banner p, #modest-banner li, #rindu-fill-3 p, #rindu-fill-3 li {
+  color: #0a275f;
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 300;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
 #modest-banner .rslides_tabs {
   padding: 0;
   background: rgba(0, 0, 0, 0.25);
@@ -2361,6 +2365,28 @@ section[id^=content-section] {
   position: relative;
 }
 
+#treatments {
+  position: relative;
+}
+#treatments table {
+  width: 90%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#treatments table td:first-child {
+  max-width: 60%;
+}
+#treatments table td:last-child {
+  min-width: 20%;
+  text-align: right;
+}
+#treatments sup {
+  font-weight: bold;
+  font-size: 16px;
+  color: grey;
+  top: -3px;
+}
+
 .content-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -2645,7 +2671,7 @@ section[id^=rindu-fill] {
 
 section[id^=rindu-fill] .fill-wrapper {
   padding: 100px 0;
-  min-height: 450px;
+  min-height: 350px;
 }
 
 section[id^=rindu-fill] .section-wrapper {
@@ -2684,6 +2710,21 @@ section[id^=rindu-fill] .title-break {
 #contact-form {
   position: relative;
   z-index: 2;
+}
+#contact-form a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+#contact-form address {
+  margin-bottom: 20px;
+}
+#contact-form li {
+  padding-bottom: 15px;
+}
+#contact-form li > a {
+  font-weight: normal;
 }
 
 #contact-form .section-wrapper {
@@ -2731,7 +2772,7 @@ section[id^=rindu-fill] .title-break {
 }
 
 #rindu-footer .section-wrapper {
-  padding-top: 100px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -2770,6 +2811,27 @@ section[id^=rindu-fill] .title-break {
 
 #rindu-footer .addthis_default_style, #rindu-footer .at300b, #rindu-footer .at300m {
   float: none !important;
+}
+
+.thumbnail {
+  border-color: #2da39f;
+  padding: 0;
+  border-radius: 4px;
+}
+.thumbnail .caption {
+  padding-bottom: 20px;
+}
+.thumbnail .caption h2 {
+  background-color: #2da39f;
+  color: #fff;
+  padding: 10px 0;
+  margin: -9px -9px 0 -9px;
+}
+
+h4 > a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 /*# sourceMappingURL=main.css.map */
