@@ -408,7 +408,8 @@ section[id^="content-section"] {
     td:first-child {
       max-width: 60%
     }
-    td:last-child{
+
+    td:last-child {
       min-width: 20%;
       text-align: right;
     }
@@ -510,9 +511,9 @@ section[id^="content-section"] {
 }
 
 #bootstack-pricing .panel-custom {
- > .panel-heading {
-   color: #fff;
- }
+  > .panel-heading {
+    color: #fff;
+  }
 }
 
 #bootstack-pricing .panel-heading > .panel-title {
@@ -637,6 +638,21 @@ section[id^="content-section"] {
 #simple-carousel {
   position: relative;
   z-index: 2;
+
+  .slide-box {
+    border: 1px solid #2da39f;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 4px;
+
+    .thumbnail {
+      border: none;
+    }
+
+    .caption {
+      padding: 0 10px 10px 10px;
+    }
+  }
 }
 
 #simple-carousel .section-wrapper {
@@ -875,6 +891,21 @@ h4 > a {
   color: inherit;
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+.pager li > a {
+  display: inline-block;
+  padding: 8px 0px;
+  background-color: #2da39f;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+
+  i {
+    color: #fff;
+  }
 }
 
 

@@ -104,7 +104,6 @@ jQuery(document).ready(function ($) {
 
 
     // PROPOSURE MODAL SCRIPTS
-
     $('.proposure-modal').click(function () {
         var body = urldecode($(this).data('body'));
         console.log(body)
@@ -115,7 +114,10 @@ jQuery(document).ready(function ($) {
         $("#rindu-team .teams").equalizeHeights();
     });
 
-
+    // CAROUSEL
+    $('.carousel').carousel({
+        interval: false
+    })
 });
 
 (function($){
@@ -149,6 +151,7 @@ jQuery(document).ready(function ($) {
         equalizeHeights('#bootstack-pricing .panel-body');
         equalizeHeights('#bootstack-pricing .row-2 .panel-body');
         equalizeHeights("#content-section-1 .thumbnail");
+        equalizeHeights("#simpleCarousel .slide-box");
 
         // Fix heights on window resize
         $(window).resize(function() {
@@ -158,6 +161,8 @@ jQuery(document).ready(function ($) {
                 equalizeHeights('#bootstack-pricing .panel-body');
                 equalizeHeights('#bootstack-pricing .row-2 .panel-body');
                 equalizeHeights('#bootstack-pricing .thumbnail');
+                equalizeHeights("#simpleCarousel .slide-box");
+
             }, 120);
         });
     });

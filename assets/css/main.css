@@ -2601,6 +2601,18 @@ section[id^=content-section] {
   position: relative;
   z-index: 2;
 }
+#simple-carousel .slide-box {
+  border: 1px solid #2da39f;
+  background-color: #fff;
+  padding: 0;
+  border-radius: 4px;
+}
+#simple-carousel .slide-box .thumbnail {
+  border: none;
+}
+#simple-carousel .slide-box .caption {
+  padding: 0 10px 10px 10px;
+}
 
 #simple-carousel .section-wrapper {
   padding-top: 50px;
@@ -2832,6 +2844,20 @@ h4 > a {
   color: inherit;
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+.pager li > a {
+  display: inline-block;
+  padding: 8px 0px;
+  background-color: #2da39f;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+}
+.pager li > a i {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
