@@ -2860,4 +2860,9 @@ h4 > a {
   color: #fff;
 }
 
+/** temp */
+#content-section-1 img {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */
