@@ -42,7 +42,7 @@
 
 #modest-banner {
   display: flex;
-  min-height: 300px;
+  min-height: 400px;
   .rslides {
     height: 100%;
   }
@@ -913,6 +913,7 @@ h4 > a {
   #modest-banner .callbacks .caption {
     top: 25%;
     padding: 4px;
+    min-height: 300px;
   }
 }
 @media (max-width: 768px) {
