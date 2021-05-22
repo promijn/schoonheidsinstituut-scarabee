@@ -40,11 +40,17 @@
   opacity: 0.7;
 }
 
-@media (max-width: 768px) {
-  .navbar .navbar-brand {
-    font-size: 14px;
-    padding: 18px 8px;
+#modest-banner {
+  display: flex;
+  min-height: 300px;
+  .rslides {
+    height: 100%;
   }
+}
+
+#top {
+  background-position: center;
+  background-size: cover;
 }
 
 #modest-banner, #rindu-fill-3 {
@@ -60,11 +66,12 @@
     line-height: 1.1;
     font-weight: 300;
     font-family: "Helvetica Neue", sans-serif;
+    height: 100%;
   }
+
 }
 
 #modest-banner .rslides_tabs {
-  padding: 0;
   background: rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px #000000;
   -moz-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px #000000;
@@ -252,30 +259,6 @@
   font-size: 20px;
   margin-bottom: 12px;
   margin-top: 0px;
-}
-
-@media screen and (max-width: 768px) {
-  #modest-banner .slide-text-info h1 {
-    font-size: 20px;
-  }
-  #modest-banner .slide-text-info p {
-    width: 80%;
-    font-size: 14px;
-  }
-  #modest-banner .callbacks_nav {
-    top: 47%;
-  }
-  #modest-banner .callbacks .caption {
-    top: 5%;
-    padding: 4px;
-  }
-}
-
-@media screen and (max-width: 998px) {
-  #modest-banner .callbacks .caption {
-    top: 15%;
-    padding: 4px;
-  }
 }
 
 #modest-banner .img-overlay-solid {
@@ -905,6 +888,53 @@ h4 > a {
 
   i {
     color: #fff;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #modest-banner .slide-text-info h1 {
+    font-size: 20px;
+  }
+  #modest-banner .slide-text-info p {
+    width: 80%;
+    font-size: 14px;
+  }
+  #modest-banner .callbacks_nav {
+    top: 47%;
+  }
+  #modest-banner .callbacks .caption {
+    top: 5%;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  #modest-banner .callbacks .caption {
+    top: 25%;
+    padding: 4px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 14px;
+    padding: 18px 8px;
+  }
+
+  h2.title {
+    font-size: 28px !important;
+  }
+
+  #treatments {
+    table {
+      td:first-child {
+        width: 50%
+      }
+
+      td:last-child {
+        width: 50%;
+      }
+    }
   }
 }
 
